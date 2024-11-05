@@ -1,0 +1,21 @@
+numero  =[1,2,3]
+print (numero)
+#valores tipo caracter
+animales = ["perro", "gato","conejo"]
+#imprimir un valor 
+print (animales)
+print (animales[2])
+print ("la longitu de esta lista es: " ,len(animales))
+
+animales.append("pez")
+print("la lista despues de agregar un animal es: " ,animales)
+
+animales.remove("perro")
+print (animales)
+
+animales[1]=("perro")
+print (animales)
+
+animales.append(input("ingresa un nuevo animales"))
+print (animales)
+                

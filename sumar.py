@@ -6,4 +6,3 @@ if z > 10:
  print ("la suma es mayor de 10")
 else:
  print ("la suma es otro valor ") 
-
