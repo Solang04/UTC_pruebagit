@@ -19,3 +19,12 @@ print (animales)
 animales.append(input("ingresa un nuevo animales"))
 print (animales)
                 
+animales.sort                
+print (animales)
+
+animales.pop(2)
+print ("el listado actual elimiando la posicion 2 es: " ,animales)
+
+animales_respaldo = animales.copy()
+print (animales, "\n" )
+print(animales_respaldo)

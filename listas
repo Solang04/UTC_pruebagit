@@ -1,0 +1,15 @@
+frutas =[]
+for i in range(1,6):
+    frutas.append(input(f"ingresa la fruta: {i}"))
+
+#eliminar la posicion
+del frutas[3]
+
+#copia de la lista
+frutas_copia = frutas.copy()
+print ("la original queda asi:" ,frutas, "\n")
+print ("la copia queda asi:" ,frutas_copia) 
+
+#ingreso de una nueva fruta
+frutas_copia.append(input("ingrese una nueva fruta: "))
+
